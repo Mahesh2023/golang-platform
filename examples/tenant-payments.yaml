@@ -1,0 +1,10 @@
+apiVersion: platform.platform.io/v1alpha1
+kind: Tenant
+metadata:
+  name: payments
+spec:
+  displayName: Payments Team
+  resourceQuota:
+    cpu: "20"
+    memory: "40Gi"
+    pods: 100
